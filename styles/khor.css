@@ -1,0 +1,319 @@
+.visited-ruby:visited {
+  color: #e0115f;
+}
+
+.visited-white:visited {
+  color: white;
+}
+
+.pad-sides {
+  padding: 0 2rem;
+}
+
+.pad-bottom {
+  padding-bottom: 1rem;
+}
+
+.pad-top {
+  padding-top: 1rem;
+}
+
+.margin-sides {
+  margin: 0 1rem;
+}
+
+.margin-y {
+  margin: 1rem 0;
+}
+
+.wh-auto {
+  width: auto;
+  height: auto;
+}
+
+.modal-font {
+  font-size: large;
+}
+
+.error {
+  width: 100%;
+  padding: 0.15rem;
+  font-size: 75%;
+  color: white;
+  background-color: #e01160e5;
+  border-radius: 0.2rem;
+}
+
+.m-a-0 {
+  margin: auto 0;
+}
+
+.m-0-a {
+  margin: 0 auto;
+}
+
+.m-a {
+  margin: auto;
+}
+
+.card-generic {
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 1px 0.1rem rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+/*------------------------- LOGIN & REGISTER STYLING -------------------------*/
+
+.login-logo img {
+  height: 17rem;
+  width: auto;
+}
+
+.login-area {
+  background-color: white;
+  border-radius: 0.5rem;
+  height: auto;
+  width: 45rem;
+  padding: 2.5rem;
+}
+
+.login-area h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.login-header {
+  justify-content: space-between;
+}
+
+.login-pad-top {
+  padding-top: 15px;
+}
+
+/*------------------------- REFUND APPLICATION STYLING -------------------------*/
+
+.refund-product-grid {
+  display: grid;
+  grid-template-columns: 350px 3fr;
+}
+
+.refund-product-grid-bottom {
+  display: grid;
+  grid-template-columns: 2.8fr 1fr;
+}
+
+.refund-product-grid-bottom textarea {
+  resize: none;
+}
+
+.refund-product-rows {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.refund-image {
+  height: 350px;
+  width: 100%;
+}
+
+.refund-product-grid-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.refund-font {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.refund-upload-image {
+  width: 270px;
+  height: 270px;
+  object-fit: contain;
+}
+
+.modal-size {
+  height: auto;
+  width: auto;
+}
+
+.modal-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*------------------------- EMPLOYEE STYLING -------------------------*/
+
+.employee-sidenav {
+  font-size: large;
+}
+
+.employee-sidenav .material-icons {
+  position: relative;
+  top: 0.25rem;
+}
+
+.employee-sidenav-label {
+  padding: 0.25rem 0;
+}
+
+.employee-sidenav-label a.active {
+  color: #e01160de;
+}
+
+.employee-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 1rem 0;
+}
+
+.employee-table {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border-spacing: 0;
+  text-align: center;
+  table-layout: fixed;
+  width: 100%;
+  height: 0px;
+}
+
+.employee-table th {
+  background-color: #e01160de;
+  color: white;
+  font-size: larger;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.employee-table th:nth-child(n + 2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.employee-table td {
+  padding: 0.5rem;
+  font-size: large;
+  word-wrap: break-word;
+  font-weight: 550;
+}
+
+.employee-table td:nth-child(n + 2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.employee-table tr:not(:last-child) td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.employee-table img {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+}
+
+.employee-table-header-tl {
+  border-radius: 4px 0 0 0;
+}
+
+.employee-table-header-tr {
+  border-radius: 0 4px 0 0;
+}
+
+.employee-refund-ticket-image img {
+  height: 22rem;
+  width: 22rem;
+  object-fit: contain;
+}
+
+.employee-banner-image {
+  width: 100%;
+}
+
+.btn-add-banner {
+  width: 10%;
+  min-width: 140px;
+  float: right;
+  margin: 0.5rem 0;
+}
+
+input[type="file"] {
+  margin-top: 1rem;
+}
+
+.icons {
+  position: relative;
+  top: 0.35rem;
+}
+
+/*------------------------- ORDER INFORMATION STYLING -------------------------*/
+
+.order-content-card {
+  background-color: white;
+  border: 0.5px rgba(216, 208, 208, 0.774);
+  border-style: solid;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 4px rgb(175, 172, 172);
+  padding: 1.5rem 2rem;
+  margin: 1rem 0;
+}
+
+.order-content-card-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 7.5fr 1fr;
+  margin: 1rem 0;
+}
+
+.order-border-bottom {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.order-border-top {
+  border-top: 1px solid gray;
+}
+
+.orderinfo-table {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.orderinfo-table tr {
+  overflow-x: auto;
+  word-wrap: break-word;
+  padding: 1rem;
+}
+
+.orderinfo-table th {
+  font-size: 22px;
+  height: 40px;
+  color: gray;
+  padding: 1rem 0;
+}
+
+.orderinfo-table img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+#shipping,
+#total,
+#ordertotal {
+  text-align: right;
+}
+
+.canvas-container {
+  width: 100%;
+}
+
+#trending-chart {
+  width: 100%;
+}

@@ -1,0 +1,126 @@
+.top-bar {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+  background-image: linear-gradient(0deg, #e0115f, #cc0a54);
+  height: 8rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+.top-bar-wrapper {
+  z-index: 400;
+  height: 2rem;
+  max-width: 1200px;
+  width: 75%;
+}
+
+.top-bar-elements {
+  display: block;
+  align-items: center;
+  overflow: auto;
+}
+
+.top-bar-left {
+  padding: 0.4rem;
+  float: left;
+  font-size: small;
+}
+
+.top-bar-right {
+  padding: 0.4rem;
+  float: right;
+  font-size: small;
+}
+
+.top-bar-header {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.top-bar-logo-wrapper {
+  position: relative;
+  margin: 1rem;
+}
+
+.top-bar-search {
+  height: 4rem;
+  width: 840px;
+}
+
+.top-bar-title {
+  border-left: 2px solid white;
+  position: relative;
+  top: -4px;
+  font-size: 2.6rem;
+  padding: 0 1.25rem;
+}
+
+.search-bar-input {
+  background-color: white;
+  display: flex;
+  padding-left: 0.75rem;
+  border-radius: 0.2rem;
+  border: 1px solid #efefef;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+
+.top-bar-search-bar {
+  flex: 1;
+  height: 2.4rem;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+}
+
+.top-bar-search-bar:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.top-bar-search-bar::placeholder {
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.top-bar-shopping-cart {
+  margin: 1rem 4rem;
+}
+
+.top-bar-search-button {
+  display: flex;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.3);
+  width: 4rem;
+  padding: 0.3rem;
+  margin: 0.1rem;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.top-bar-suggestions a {
+  font-size: small;
+  position: relative;
+  top: 0.3rem;
+  padding: 0 1rem;
+}
+
+.top-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-bar a:visited {
+  color: white;
+}
+
+.top-bar a:active {
+  color: white;
+}
