@@ -4,6 +4,14 @@ An e-commerce project made for WDT & SDP module for Asia Pacific University.
 
 Basically, it is a copy of Shopee.
 
+Here's some images
+
+![Search](https://i.imgur.com/Yxgq0E1.png)
+
+![Item](https://i.imgur.com/ukQS3GT.png)
+
+![Index](https://i.imgur.com/9Repx9n.png)
+
 ## How to use
 
 1. Clone the repository
